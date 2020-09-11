@@ -1,7 +1,6 @@
 @extends('template')
 @section('content')
 
-<<<<<<< HEAD
 <main class="main">
 
     <div class="fill">
@@ -57,7 +56,5 @@
     </div>
 
 </main>
-=======
->>>>>>> master
 
 @endsection

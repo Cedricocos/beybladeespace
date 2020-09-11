@@ -13,13 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/home', function () {
+Route::get('/', function () {
     return view('welcome');
 });
 
 Route::get('/news/{slug}', 'NewsController@show');
 
-Route::get('/banane', function () {
+Route::get('/news', function () {
 
-    return view('banane');
+    return view('news');
 });

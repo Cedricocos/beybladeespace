@@ -18,43 +18,25 @@
 
 			<!-- Header -->
 				<header id="header">
-					<h1 class="h1"><img src="images/BE_logo.svg" id="logo"><a href="index.php">BEYBLADE ESPACE</a></h1>
+					<h1 class="h1"><img src="images/BE_logo.svg" id="logo"><a href="/">BEYBLADE ESPACE</a></h1>
 					<nav id="nav">
 						<ul>
-							<li><a href="index.php">Accueil</a></li>
+							<li><a href="/">Accueil</a></li>
 							<li>
-<<<<<<< HEAD
 								<a href="/bakuten">Bakuten</a>
 								<ul>
 									<li><a href="/bakuten/manga">Animé - Manga</a></li>
 									<li><a href="/bakuten/beys">Beys</a></li>
 									<li><a href="/bakuten/jeux">Jeux-Vidéos</a></li>
-=======
-								<a href="index.php">Bakuten</a>
-								<ul>
-									<li><a href="pages/left-sidebar.html">Animé - Manga</a></li>
-									<li><a href="pages/right-sidebar.html">Beys</a></li>
-									<li><a href="pages/no-sidebar.html">Jeux-Vidéos</a></li>
->>>>>>> master
-									
-								</ul>
+                                </ul>
 							</li>
 							<li>
-<<<<<<< HEAD
 								<a href="/metal">Metal</a>
 								<ul>
 									<li><a href="/metal/manga">Animé - Manga</a></li>
 									<li><a href="/metal/beys">Beys</a></li>
 									<li><a href="/metal/jeux">Jeux-Vidéos</a></li>
-=======
-								<a href="index.html">Metal</a>
-								<ul>
-									<li><a href="pages/left-sidebar.html">Animé - Manga</a></li>
-									<li><a href="pages/right-sidebar.html">Beys</a></li>
-									<li><a href="pages/no-sidebar.html">Jeux-Vidéos</a></li>
->>>>>>> master
-									
-								</ul>
+                                </ul>
 							</li>
 							<li>
 								<a href="index.html">Burst</a>
@@ -67,19 +49,13 @@
 							</li>
 							<li><a href="index.html">Spin-off</a></li>
 							<li><a href="index.html">Forum</a></li>
-<<<<<<< HEAD
 							<li><a href="/news">News</a></li>
-=======
-							<li><a href="index.html">News</a></li>
->>>>>>> master
 							<li><a href="#" class="button primary">Se connecter</a></li>
 						</ul>
 					</nav>
 				</header>
 
                 @yield('content')
-
-<<<<<<< HEAD
 
             <!-- Newsletter -->
 				<section id="newslet" class="wrapper style2 special fade">
@@ -96,8 +72,6 @@
 					</div>
 				</section>
 
-=======
->>>>>>> master
 			<!-- Footer -->
 				<footer id="footer">
 					<ul class="icons">

@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+@extends('template')
+@section('content')
+=======
 <!DOCTYPE HTML>
 <!--
 	Landed by HTML5 UP
@@ -56,6 +60,7 @@
 						</ul>
 					</nav>
 				</header>
+>>>>>>> master
 
 			<!-- Banner -->
 				<section id="banner">
@@ -88,47 +93,6 @@
 					<a href="#newslet" class="goto-next scrolly">Next</a>
 				</section>
 
-			<!-- Newsletter -->
-				<section id="newslet" class="wrapper style2 special fade">
-					<div class="container">
-						<header>
-							<h2 class="black bold">Abonnez-vous pour ne rien manquer !</h2>
-						</header>
-						<form method="post" action="#" class="cta">
-							<div class="row gtr-uniform gtr-50">
-								<div class="col-8 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Mettez votre email ici" /></div>
-								<div class="col-4 col-12-xsmall"><input type="submit" value="S'abonner" class="fit primary" /></div>
-							</div>
-						</form>
-					</div>
-				</section>
+			
 
-			<!-- Footer -->
-				<footer id="footer">
-					<ul class="icons">
-						<li><a href="https://twitter.com/beyblade_espace" class="icon brands alt fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-						<li><a href="https://www.facebook.com/beyblade.espace.officiel/" class="icon brands alt fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
-						<li><a href="https://www.instagram.com/beyblade_espace/" class="icon brands alt fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
-						<li><a href="https://www.youtube.com/channel/UClogoypOd7FGst3E_1nIjNw" class="icon brands alt fa-youtube" target="_blank"><span class="label">Youtube</span></a></li>
-						<li><a href="https://open.spotify.com/show/2IrIvye5QlPxiVyXyABEg7" class="icon solid alt" target="_blank"><i class="fab fa-spotify big"></i></a></li>
-						<li><a href="https://discord.com/invite/HZEpzZ3" class="icon solid alt" target="_blank"><i class="fab fa-discord big"></i></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Beyblade Espace. Tout droits réservés.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</footer>
-
-		</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
-</html>
+@endsection

@@ -3,12 +3,10 @@
     "",
     "\\database",
     "\\public",
-    "\\public\\CSS",
-    "\\public\\Fonts",
     "\\resources",
     "\\resources\\views",
     "\\routes"
   ],
-  "SelectedNode": "\\public\\Fonts",
+  "SelectedNode": "\\resources\\views\\welcome.blade.php",
   "PreviewInSolutionExplorer": false
 }

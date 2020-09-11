@@ -1,3 +1,5 @@
+@extends('template')
+@section('content')
 
 
 <h1>{{ $news->title}}</h1>
@@ -7,3 +9,4 @@
      src="{{ $news->image_path}}">
 
 
+     @endsection

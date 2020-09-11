@@ -9,7 +9,7 @@
 		<title>Accueil | Beyblade Espace</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link href="{{ asset('assets/css/main.css') }}" rel="stylesheet">
 		<script src="https://kit.fontawesome.com/3a8580db81.js" crossorigin="anonymous"></script>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -90,14 +90,14 @@
 		</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<script src="{{ asset('assets/js/jquery.min.js') }}"></script>
+			<script src="{{ asset('assets/js/jquery.scrolly.min.js') }}"></script>
+			<script src="{{ asset('assets/js/jquery.dropotron.min.js') }}"></script>
+			<script src="{{ asset('assets/js/jquery.scrollex.min.js') }}"></script>
+			<script src="{{ asset('assets/js/browser.min.js') }}"></script>
+			<script src="{{ asset('assets/js/breakpoints.min.js') }}"></script>
+			<script src="{{ asset('assets/js/util.js') }}"></script>
+			<script src="{{ asset('assets/js/main.js') }}"></script>
 
 	</body>
 </html>

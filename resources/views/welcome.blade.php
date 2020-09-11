@@ -1,66 +1,134 @@
-<!DOCTYPE html>
-<html lang="fr">
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Accueil | Beyblade Espace</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://kit.fontawesome.com/3a8580db81.js" crossorigin="anonymous"></script>
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload landing">
+		<div id="page-wrapper">
 
-    <head>
+			<!-- Header -->
+				<header id="header">
+					<h1 class="h1"><img src="images/BE_logo.svg" id="logo"><a href="index.html">BEYBLADE ESPACE</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Accueil</a></li>
+							<li>
+								<a href="index.html">Bakuten</a>
+								<ul>
+									<li><a href="pages/left-sidebar.html">Animé - Manga</a></li>
+									<li><a href="pages/right-sidebar.html">Beys</a></li>
+									<li><a href="pages/no-sidebar.html">Jeux-Vidéos</a></li>
+									
+								</ul>
+							</li>
+							<li>
+								<a href="index.html">Metal</a>
+								<ul>
+									<li><a href="pages/left-sidebar.html">Animé - Manga</a></li>
+									<li><a href="pages/right-sidebar.html">Beys</a></li>
+									<li><a href="pages/no-sidebar.html">Jeux-Vidéos</a></li>
+									
+								</ul>
+							</li>
+							<li>
+								<a href="index.html">Burst</a>
+								<ul>
+									<li><a href="pages/left-sidebar.html">Animé - Manga</a></li>
+									<li><a href="pages/right-sidebar.html">Beys</a></li>
+									<li><a href="pages/no-sidebar.html">Jeux-Vidéos</a></li>
+									
+								</ul>
+							</li>
+							<li><a href="index.html">Spin-off</a></li>
+							<li><a href="index.html">Forum</a></li>
+							<li><a href="index.html">News</a></li>
+							<li><a href="#" class="button primary">Se connecter</a></li>
+						</ul>
+					</nav>
+				</header>
 
-        <link rel="stylesheet" type="text/css" href="CSS/header.css">
-        <link rel="stylesheet" type="text/css" href="CSS/style.css">
-        <link rel="stylesheet" type="text/css" href="CSS/footer.css">
-        <script src="https://kit.fontawesome.com/3a8580db81.js" crossorigin="anonymous"></script>
-        <meta charset="utf-8">
-        <title>News et infos | Beyblade Espace</title>
+			<!-- Banner -->
+				<section id="banner">
+					<div class="content">
+						<header>
+							<h2>Beyblade Espace</h2>
+							<p>Site d'information Beyblade<br>
+							- News<br>
+							- Articles<br>
+							- Fiches Techniques</p>
+						</header>
+						<img src="images/BE_logo.png" class="image">
+					</div>
+					<a href="#news" class="goto-next scrolly">Next</a>
+				</section>
+			
 
-    </head>
+			<!-- Dernières News -->
+				<section id="news" class="spotlight style3 left">
+					<span class="image fit main bottom"><img src="images/pic04.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2 class="black">Nom de la dernière News</h2>
+							<p class="black">Description de la dernière News</p>
+						</header>
+						<ul class="actions">
+							<li><a href="#" class="button">Voir les news</a></li>
+						</ul>
+					</div>
+					<a href="#newslet" class="goto-next scrolly">Next</a>
+				</section>
 
-    <body>
+			<!-- Newsletter -->
+				<section id="newslet" class="wrapper style2 special fade">
+					<div class="container">
+						<header>
+							<h2 class="black bold">Abonnez-vous pour ne rien manquer !</h2>
+						</header>
+						<form method="post" action="#" class="cta">
+							<div class="row gtr-uniform gtr-50">
+								<div class="col-8 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Mettez votre email ici" /></div>
+								<div class="col-4 col-12-xsmall"><input type="submit" value="S'abonner" class="fit primary" /></div>
+							</div>
+						</form>
+					</div>
+				</section>
 
-        <header class="header">
-            <div class="gauche">
-                <img src="https://static.wixstatic.com/shapes/fd8be7_c289fbc8cade4d03917c90adc569fb3d.svg" class="logo">
-                <a class="titreclic">
-                    <h1 class="titrepage">BEYBLADE ESPACE</h1>
-                </a>
-            </div>
-            <nav class="mid">
-                <a href="index.php" class="menu-btn act">
-                    <div><p>Accueil</p></div>
-                </a>
-                <a href="index.php" class="menu-btn">
-                    <div><p>Forum</p></div>
-                </a>
-                <a href="index.php" class="menu-btn">
-                    <div><p>Bakuten</p></div>
-                </a>
-                <a href="index.php" class="menu-btn">
-                    <div><p>Metal</p></div>
-                </a>
-                <a href="index.php" class="menu-btn">
-                    <div><p>Burst</p></div>
-                </a>
-                <a href="index.php" class="menu-btn">
-                    <div><p>Spin-off</p></div>
-                </a>
-                <a href="index.php" class="menu-btn">
-                    <div><p>News</p></div>
-                </a>
-            </nav>
-            <div class="droite">
-               <!--
-               Bon, la ça sera en fonction de si la personne est co ou non, je sais comment faire en js avec le if et else mais pour le php jsp donc faudra voir.
-               Si le mec est co, il y a une icone de cloche (à aller prendre sur Font Awesome) qui mene a une page notif, sa pp en tt petit et une fleche qui déroule un menu avec le lien vers son profil et un bouton logout.
-               Si le mec est pas co, y'a juste un bouton login.
-                -->
-            </div>
-        </header>
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://twitter.com/beyblade_espace" class="icon brands alt fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/beyblade.espace.officiel/" class="icon brands alt fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.instagram.com/beyblade_espace/" class="icon brands alt fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+						<li><a href="https://www.youtube.com/channel/UClogoypOd7FGst3E_1nIjNw" class="icon brands alt fa-youtube" target="_blank"><span class="label">Youtube</span></a></li>
+						<li><a href="https://open.spotify.com/show/2IrIvye5QlPxiVyXyABEg7" class="icon solid alt" target="_blank"><i class="fab fa-spotify big"></i></a></li>
+						<li><a href="https://discord.com/invite/HZEpzZ3" class="icon solid alt" target="_blank"><i class="fab fa-discord big"></i></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Beyblade Espace. Tout droits réservés.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
 
-        <main>  
+		</div>
 
-        </main>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-        <footer>
-            
-        </footer>
-
-    </body>
-
+	</body>
 </html>

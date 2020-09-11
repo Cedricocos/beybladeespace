@@ -13,7 +13,6 @@ class NewsController extends Controller
         if(is_null($news)){
             dd(404);
         }
-     
        return view('newsShow', [
            'news' => $news
        ]);

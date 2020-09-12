@@ -18,7 +18,7 @@
 
 			<!-- Header -->
 				<header id="header">
-					<h1 class="h1"><img src="images/BE_logo.svg" id="logo"><a href="/">BEYBLADE ESPACE</a></h1>
+					<h1 class="h1"><img src="{{ asset('images/BE_logo.svg') }}" id="logo"><a href="/">BEYBLADE ESPACE</a></h1>
 					<nav id="nav">
 						<ul>
 							<li><a href="/">Accueil</a></li>
@@ -49,7 +49,8 @@
 							</li>
 							<li><a href="index.html">Spin-off</a></li>
 							<li><a href="index.html">Forum</a></li>
-							<li><a href="/news">News</a></li>
+							<li><a href="/actualites">Actualité</a></li>
+							<li><a href="/actualites/nouveau">Creer Actualité</a></li>
 							<li><a href="#" class="button primary">Se connecter</a></li>
 						</ul>
 					</nav>

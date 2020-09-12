@@ -17,9 +17,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/news/{slug}', 'NewsController@show');
+Route::get('/actualites/nouveau', function () {
 
-Route::get('/news', function () {
-
-    return view('news');
+    return view('news/createNews');
 });
+
+Route::get('/actualites/{slug}', 'NewsController@show');
+
+Route::get('/actualites', 'NewsController@showAll');
+Route::post('/newsCreate', 'NewsController@create');

@@ -155,7 +155,7 @@ input, select, textarea {
 	}
 
 	input, select, textarea {
-		color: black !important;
+		color: white !important;
 		font-family: "Roboto", Helvetica, sans-serif;
 		font-size: 15pt;
 		font-weight: 100;

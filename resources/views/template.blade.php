@@ -54,9 +54,9 @@
 						</ul>
 					</nav>
 				</header>
-
+				<div class="contentTemplate">
                 @yield('content')
-
+				</div>
             <!-- Newsletter -->
 				<section id="newslet" class="wrapper style2 special fade">
 					<div class="container">

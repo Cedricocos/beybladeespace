@@ -39,25 +39,25 @@
                                 </ul>
 							</li>
 							<li>
-								<a href="index.html">Burst</a>
+								<a href="/burst">Burst</a>
 								<ul>
-									<li><a href="pages/left-sidebar.html">Animé - Manga</a></li>
-									<li><a href="pages/right-sidebar.html">Beys</a></li>
-									<li><a href="pages/no-sidebar.html">Jeux-Vidéos</a></li>
+									<li><a href="/burst/manga">Animé - Manga</a></li>
+									<li><a href="/burst/beys">Beys</a></li>
+									<li><a href="/burst/jeux">Jeux-Vidéos</a></li>
 									
 								</ul>
 							</li>
-							<li><a href="index.html">Spin-off</a></li>
-							<li><a href="index.html">Forum</a></li>
-							<li><a href="/actualites">Actualité</a></li>
-							<li><a href="/actualites/nouveau">Creer Actualité</a></li>
+							<li><a href="/spinoff">Spin-off</a></li>
+							<li><a href="/forum">Forum</a></li>
+							<li><a href="/actualites">Actualités</a></li>
+							<li><a href="/actualites/nouveau">Créer une Actualité</a></li>
 							<li><a href="#" class="button primary">Se connecter</a></li>
 						</ul>
 					</nav>
 				</header>
-				<div class="contentTemplate">
+				
                 @yield('content')
-				</div>
+				
             <!-- Newsletter -->
 				<section id="newslet" class="wrapper style2 special fade">
 					<div class="container">

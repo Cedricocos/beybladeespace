@@ -3,10 +3,14 @@
     "",
     "\\database",
     "\\public",
+    "\\public\\assets",
+    "\\public\\assets\\css",
+    "\\public\\pages",
     "\\resources",
     "\\resources\\views",
+    "\\resources\\views\\news",
     "\\routes"
   ],
-  "SelectedNode": "\\resources\\views\\welcome.blade.php",
+  "SelectedNode": "\\resources\\views\\news\\createNews.blade.php",
   "PreviewInSolutionExplorer": false
 }

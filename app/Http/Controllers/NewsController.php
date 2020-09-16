@@ -51,7 +51,7 @@ class NewsController extends Controller
 
         $news->save();
         
-        return redirect('/actualite/'.$slug);
+        return redirect('/actualites/'.$slug);
 
 
     }

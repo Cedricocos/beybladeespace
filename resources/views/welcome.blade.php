@@ -22,6 +22,7 @@
 
 			<!-- Dernières News -->
 				<section id="news" class="spotlight style3 left">
+				
 					<span class="image fit main bottom"><img src="images/pic04.jpg" alt="" /></span>
 					<div class="content">
 						<header>

@@ -9,7 +9,7 @@
         <img src="{{ $news->image_path }}" class="img-post">
         <div class="content">
             <h1 class="black"> {{$news->title}} </h1>
-            <p>{!! $news->body !!}'
+            <p>{!! (substr($news->body,0,250).'...') !!}'
             <p>Posté par Michel le {{ $news->created_at }}</p>
         </div>
     </a>

@@ -26,3 +26,6 @@ Route::get('/actualites/{slug}', 'NewsController@show');
 
 Route::get('/actualites', 'NewsController@showAll');
 Route::post('/newsCreate', 'NewsController@create');
+
+Route::get('/login', 'ConnexionController@formulaire');
+Route::post('/login', 'ConnexionController@traitement');

@@ -51,7 +51,24 @@
 							<li><a href="/forum">Forum</a></li>
 							<li><a href="/actualites">Actualités</a></li>
 							<li><a href="/actualites/nouveau">Créer une Actualité</a></li>
-							<li><a href="#" class="button primary">Se connecter</a></li>
+							<li>
+                                <a href="#connexion" class="button primary">Se connecter</a>
+				                <div class="lightbox" id="connexion">
+					                <figure>
+						                <a href="#" class="closemsg"></a>
+                                        <div class="form">
+						                    <form class="form-c">
+                                                    <label for="pseudo" class="signtitle">Votre Pseudo :</label>
+                                                    <input type="text" name="pseudo" id="pseudo" placeholder="Pseudo" class="little"/>
+                                                    <br />
+                                                   <label for="pass" class="signtitle">Votre mot de passe :</label>
+                                                   <input type="password" name="pass" id="pass" placeholder="Mot de Passe" class="little"/>
+                                                   <button type="submit" class="button primary signbutton">Se connecter</button>
+                                            </form>
+                                        </div>
+					                </figure>
+				                </div>
+                            </li>
 						</ul>
 					</nav>
 				</header>
